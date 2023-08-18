@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+/* HEADEAR & MENU */
+
 header{
     background-color: #1C1C1C ;
     width: 100%;
@@ -78,11 +80,68 @@ header{
 }
 
 
+/* SECTION */
 
+body{
+    background-image: url(../img/SL_060521_43530_09.jpg);
+}
+
+
+.slides{
+margin: 0 auto;
+  width: 1200px;
+  height: 600px;
+  overflow: hidden;
+  border: 0.3rem solid white;
+  border-radius: 2rem;
+  box-shadow: rgb(236, 236, 236) 0rem 0rem 2rem 0.1rem;
+margin-top: 5rem;
+background-size: cover;
+}
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+.slide img {
+    width: 1200px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
 
 footer {
     background-color: #222;
     width: 100%;
+    width: 100%;
+
+   
   }
   .footer_content {
     display: grid;
