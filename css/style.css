@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1C1C1C ;
+    width: 100%;
+    height: 8rem;
+}
+.logo{
+    font-family: 'ADLaM Display', cursive;    
+    position: relative;
+    top: 1rem;
+    left: 4rem;
+    width: 7rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menu-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+.menu-ul li {
+    display: inline-block;
+}
+.menu-ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'ADLaM Display', cursive;    
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 2rem;
+    width: 12rem;
+    height: 3rem;
+    padding: 1rem;
+}
+.icon-menu-ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+.icon-menu-ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'ADLaM Display', cursive;  
+    font-size: 1.3rem;  
+    position: relative;
+    bottom: 3.5rem;
+    right: 4rem;
+    
+}
+.icon-menu-ul li .perfil{
+    color: rgb(0, 88, 202);
+
+}
+.icon-menu-ul li .favorito{
+    color: rgb(202, 0, 0);
+}
+.icon-menu-ul li .premium{
+    color:	Gold ;
+}
+.perfil:hover{
+    display: block;
+    color: rgb(0, 88, 202);
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transition: 0.70s;
+}
+.favorito:hover{
+    display: block;
+    color: rgb(202, 0, 0);
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transition: 0.70s;
+}
+.premium:hover{
+    display: block;
+    color:	Gold ;
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transition: 0.70s;
+}
+.menu-ul li a:hover{
+    background-color: #ffffff;
+    width: 12rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #1C1C1C;
+} 
+.logo:hover{
+    color: #fff;
+}
+
