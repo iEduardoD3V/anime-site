@@ -1,0 +1,95 @@
+@media screen and (max-width: 1440px){
+    .menu-ul{
+        margin-right: 11rem;
+        gap: 2rem;
+    
+    }
+    .icon-menu-ul{
+        position: relative;
+        bottom: 1rem;
+       gap: 1.2rem;
+       margin-right: 4rem;
+    }
+    .img4{
+        position: relative;
+        bottom: 8rem;
+    }
+    .img5{
+        position: relative;
+        bottom: 8rem;
+    }
+    .img6{
+        position: relative;
+        bottom: 8rem;
+    }
+    .img7{
+        position: relative;
+        bottom: 16rem;
+    }
+    .img8{
+        position: relative;
+        bottom: 16rem;
+    }
+    .propaganda-img img{
+        width: 60;
+        position: relative;
+        bottom: 25rem;
+    }
+    button{
+        position: relative;
+        bottom: 25rem;
+    }
+ 
+}
+
+@media screen and (max-width: 1024px){
+    footer{
+        background-color: #222;
+         width: 100%;
+    }
+    .footer_content {
+    
+        margin-left: 1rem;
+      }
+      .directed{
+        margin-left: 3rem;
+      }
+      .logo{
+        margin: auto;
+        margin-left: 20rem;
+      }
+      
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #6C7A86 ;
+      }
+ 
+
+.slider{
+        height: 300px;
+        width: 600px ;
+      }
+      .slide img {
+        width: 600px;
+      }
+
+
+}
+
+@media screen and (max-width: 768px){
+    .footer_content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 2rem;
+        margin-left: 7rem;
+      }
+      
+      .slider{
+        height: 300px;
+        width: 600px ;
+      }
+      .slide img {
+        width: 600px;
+      }
+      
+}
