@@ -175,43 +175,29 @@ body{
     
 }
 .player{
+    background-color: #1c1c1cc0;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     position: relative;
-    margin: auto;
-    font-size: 2rem;
-    text-align: center;
-    position: relative;
-    bottom: 10rem;;
-    opacity: 0;
-    border-radius: rem;
-    background-color: #1C1C1C;
-    width: 23rem;
-    height: 13rem;
-    bottom: 16rem;
+    bottom: 17rem;
+    height: 13.2rem;
     border-radius: 1rem;
+    margin-left:1rem;
+    width: 23rem;
+    opacity: 0;
     cursor: pointer;
+}
+.player p{
+  font-size: 2rem;
+  color: #bd711a;
+  font-family: 'ADLaM Display', cursive;   
+  text-transform: uppercase;
 }
 .player:hover{
     opacity: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin: auto;
-    font-size: 2rem;
-    text-align: center;
-    position: relative;
-    bottom: 10rem;;
-    opacity: 1;
-    border-radius: 1rem;
-    background-color: #383838be;
-    width: 23rem;
-    height: 13rem;
-    bottom: 16rem;
-    border-radius: 1rem;
-    transition: 0.5s;
+    transition: 0.60s;
+
 }
 .img1 img{
     border-radius: 2rem;
@@ -252,6 +238,23 @@ body{
     font-size: 1.3rem;
     font-family: 'ADLaM Display', cursive;   
     bottom: 1rem;
+    margin-top: 1rem;
+    
+}
+.titulo i{
+ display: flex;
+ font-size: 2rem;
+ padding-left: 2rem;
+ 
+}
+.idioma{
+  position: relative;
+    text-align: right;
+    font-size: 1rem;
+    font-family: 'ADLaM Display', cursive;   
+    bottom: 2.3rem;
+    margin-right: 2rem;
+   
 }
 
 .propaganda-img img {
