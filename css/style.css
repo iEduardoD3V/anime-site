@@ -69,14 +69,30 @@ header{
     
 }
 .icon-menu-ul li .perfil{
+   display: block;
     color: rgb(0, 88, 202);
+    text-align: center;
+
 
 }
 .icon-menu-ul li .favorito{
+    display: block;
     color: rgb(202, 0, 0);
+    text-align: center;
 }
 .icon-menu-ul li .premium{
+  display: block;
     color:	Gold ;
+    text-align: center;
+}
+.premium p{
+ font-size: 0.9rem;
+}
+.favorito p{
+ font-size: 0.9rem;
+}
+.perfil p{
+ font-size: 0.9rem;
 }
 
 
@@ -85,9 +101,6 @@ header{
 body{
     background-image: url(../img/SL_060521_43530_09.jpg);
 }
-
-
-
 .slider {
   margin: 0 auto;
   width: 1200px;
@@ -231,7 +244,6 @@ body{
     border-radius: 2rem;
     cursor: pointer;
 }
-
 .titulo{
     position: relative;
     text-align: center;
@@ -256,7 +268,6 @@ body{
     margin-right: 2rem;
    
 }
-
 .propaganda-img img {
  margin: auto ;
 width: 85rem;
@@ -286,7 +297,41 @@ button:hover{
 }
 
     
+.pages{
+  display: flex;
+  flex-wrap: wrap;
+   align-content: center; 
+  justify-content: center;  
+  align-items: center; 
+  gap: 2rem;  
+  position: relative;
+  bottom: 9rem;
+}
+.num-pages{
+  text-align: center;
+  width: 2rem;
+  border: 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  background-color: #1C1C1C;
+  font-family: 'ADLaM Display', cursive;  
+  cursor: pointer; 
+  color: white;
+}
+.num-pages:hover{
+  background-color: rgb(255, 153, 0);
+}
 
+.arrow{
+  text-align: center;
+  width: 2rem;
+  border: 1rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  font-family: 'ADLaM Display', cursive;  
+  cursor: pointer; 
+  color: white;
+}
 
 
 
@@ -396,6 +441,7 @@ footer {
     color: #bd711a;
     font-size: 1.5rem;
     font-family: 'Rowdies', cursive;
+      
   }
   .footerList li a {
     text-decoration: none;
