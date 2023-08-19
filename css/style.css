@@ -95,7 +95,7 @@ body{
   overflow: hidden;
   border: 0.3rem solid white;
   border-radius: 2rem;
-  box-shadow: rgb(236, 236, 236) 0rem 0rem 5rem 0.5rem;
+  box-shadow: rgb(110, 110, 110) 0rem 0rem 5rem 0.5rem;
   margin-top: 10rem;
 }
 .slides {
@@ -163,8 +163,6 @@ body{
 .img1 img{
     border-radius: 2rem;
     cursor: pointer;
-    transform: scale(2rem);
-    -webkit-transform: scale(2rem);
 }
 .img2 img{
     border-radius: 2rem;
