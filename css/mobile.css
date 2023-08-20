@@ -43,7 +43,42 @@
 }
 
 @media screen and (max-width: 1024px){
-    footer{
+  body { 
+    overflow-x: hidden;
+  }  
+  .menu-ul{
+      position: absolute;
+      top: 8vh;
+      right: 51rem;
+      width: 50vw;
+      height: 92vh;
+      background-color: #222;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      transform: translateX(100%);
+    }
+    .menu-ul li{
+      margin-left: 0;
+      opacity: 1;
+    }
+    .mobile-menu{
+      display: block;
+    }
+  .menu-ul.active{
+    transform: translateX(0);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  footer{
         background-color: #222;
          width: 100%;
     }
@@ -59,12 +94,6 @@
         margin-left: 20rem;
       }
       
-      body {
-        font-family: 'Roboto', sans-serif;
-        background-color: #6C7A86 ;
-      }
- 
-
 .slider{
         height: 300px;
         width: 600px ;

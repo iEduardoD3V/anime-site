@@ -63,7 +63,7 @@ header{
     font-family: 'ADLaM Display', cursive;  
     font-size: 1.3rem;  
     position: relative;
-    bottom: 3.5rem;
+    bottom: 4.5rem;
     right: 4rem;
     
 }
@@ -476,6 +476,15 @@ footer {
 
 
 
+/* MOBILE */
 
-
- 
+ .mobile-menu div{
+  display: none;
+  width: 27px;
+  height: 2px;
+  background-color: #4267b2;
+  margin: 8px;
+ }
+ .mobile-menu{
+  cursor: pointer;
+ }
