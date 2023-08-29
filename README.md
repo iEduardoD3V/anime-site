@@ -1,3 +1,7 @@
 # Anime Fun🔥
 
-<img loading="lazy" src="../anime-site/img/readme img1.png" width="40" height="40"/>
+### Versão 1.0
+
+![Alt text](<img/readme img1.png>)
+![Alt text](<img/readme img2.png>)
+![Alt text](<img/readme img3.png>)
